@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(img/Mecca.jpg);
+    background-size: cover; /* Mengisi seluruh area layar */
+    background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+    background-attachment: fixed; /* Tetapkan gambar latar belakang */
+    background-position: center; /* Posisikan gambar di tengah layar */
+    }
+    
+  
+
+
+  .container {
+    opacity: 20px;
+    width: 80%;
+    height: 400px;
+    padding-top: 100px auto;
+    border-radius: 30px;
+    border: 0px solid rgba(100, 100, 100, 1);
+    border-radius: 45px;
+    background: linear-gradient(
+      45deg,
+      rgba(110, 137, 224, 0.4) 12%,
+      rgba(0, 237, 245, 0.5) 49%,
+      rgba(232, 190, 190, 0.5) 82%
+    );
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  }
+  
+  .tasbih {
+    padding-top: 50px;
+    font-family: 'DM Serif Display', serif;
+    font-size: 40px;
+  }
+
+  .angka {
+    font-size: 120px;
+    font-family: 'DM Serif Display', serif;
+  }
+
+  
+  button {
+    font-size: 24px;
+    font-family: 'DM Serif Display', serif;
+    padding: 10px 20px;
+  }
+
+
+  .powered .copyright {
+    color: black;
+    font-family: 'DM Serif Display', serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+  }
+
+  img {
+      max-width: 150px; /* Maksimum lebar gambar */
+      max-height: 200px; /* Maksimum tinggi gambar */
+  }
+  
